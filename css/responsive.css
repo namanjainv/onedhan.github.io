@@ -41,9 +41,10 @@ All responsive css rule
     margin-top: 33px;
     margin-bottom: 33px;
   }
-  .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
-    border-color: #c0392b;
-    background-color: #c0392b;
+  .navbar-default .navbar-toggle:hover,
+  .navbar-default .navbar-toggle:focus {
+    border-color: #12192f;
+    background-color: #12192f;
   }
   .navbar-default .navbar-toggle .icon-bar {
     background-color: #ffffff;
@@ -61,14 +62,14 @@ All responsive css rule
     display: none;
     padding: 0;
     -webkit-transform: scale(1);
-            transform: scale(1);
+    transform: scale(1);
     opacity: 1;
     visibility: visible;
     width: 100%;
     position: relative;
     border-radius: 0;
     -webkit-box-shadow: none;
-            box-shadow: none;
+    box-shadow: none;
     margin-bottom: 12px;
   }
   .navbar-default .navbar-nav .dropdown-menu > li {
@@ -90,13 +91,31 @@ All responsive css rule
   .navbar-default .navbar-nav.navbar-left > li .dropdown-menu .dropdown-menu {
     left: 0;
   }
-  .navbar-default .navbar-nav.navbar-left > li:last-child .dropdown-menu .dropdown-menu, .navbar-default .navbar-nav.navbar-left > li:nth-last-child(2) .dropdown-menu .dropdown-menu {
+  .navbar-default
+    .navbar-nav.navbar-left
+    > li:last-child
+    .dropdown-menu
+    .dropdown-menu,
+  .navbar-default
+    .navbar-nav.navbar-left
+    > li:nth-last-child(2)
+    .dropdown-menu
+    .dropdown-menu {
     right: 0;
   }
   .navbar-default .navbar-nav.navbar-right > li .dropdown-menu .dropdown-menu {
     left: 0;
   }
-  .navbar-default .navbar-nav.navbar-right > li:last-child .dropdown-menu .dropdown-menu, .navbar-default .navbar-nav.navbar-right > li:nth-last-child(2) .dropdown-menu .dropdown-menu {
+  .navbar-default
+    .navbar-nav.navbar-right
+    > li:last-child
+    .dropdown-menu
+    .dropdown-menu,
+  .navbar-default
+    .navbar-nav.navbar-right
+    > li:nth-last-child(2)
+    .dropdown-menu
+    .dropdown-menu {
     right: 0;
   }
   .navbar-default.affix .navbar-toggle {
@@ -120,7 +139,7 @@ All responsive css rule
   .navbar-collapse {
     border-top: 1px solid transparent;
     -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
-            box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
     position: absolute;
     width: 100%;
     max-width: 400px;
@@ -250,7 +269,7 @@ All responsive css rule
   .form-wrap {
     position: relative;
     -webkit-transform: translateY(0);
-            transform: translateY(0);
+    transform: translateY(0);
     background-image: url(../images/bg/contact.jpg);
     padding: 60px 0;
   }
@@ -282,7 +301,7 @@ All responsive css rule
   .banner.style-2 .banner-content {
     top: 50%;
     -webkit-transform: translateY(-50%);
-            transform: translateY(-50%);
+    transform: translateY(-50%);
   }
 
   .page-header {
@@ -303,6 +322,7 @@ All responsive css rule
   .navbar-default .navbar-brand {
     margin-top: 5px;
     margin-bottom: 5px;
+    padding: 10px 15px;
   }
   .navbar-default .navbar-toggle {
     margin-top: 13px;
@@ -410,7 +430,7 @@ All responsive css rule
     display: inline-block;
     position: static;
     -webkit-transform: translate(0, 0);
-            transform: translate(0, 0);
+    transform: translate(0, 0);
     margin: 0 5px;
   }
 
@@ -482,12 +502,12 @@ All responsive css rule
     display: none;
   }
 
-  .subscription input[type=email] {
+  .subscription input[type="email"] {
     width: 100% !important;
     margin-bottom: 10px;
   }
 
-  .subscription *[type=submit] {
+  .subscription *[type="submit"] {
     margin: 0;
     width: 100%;
   }
